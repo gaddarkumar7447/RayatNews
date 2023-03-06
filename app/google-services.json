@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "56724380306",
+    "project_id": "rayat-news-ef084",
+    "storage_bucket": "rayat-news-ef084.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56724380306:android:29d9bfa6cf41f3492d244b",
+        "android_client_info": {
+          "package_name": "com.ftg2021.rayatnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56724380306-v2b590m2632fvg89s8l1n2njgg28pvs5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ftg2021.rayatnews",
+            "certificate_hash": "f6912ca3be3897b9c64d37942544ed7afa10bc1a"
+          }
+        },
+        {
+          "client_id": "56724380306-8h52g408nksmln9m34iq57gah3clp0eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYkDtJoiRNTMgTnDgkbhGdY8i7dYwafbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56724380306-8h52g408nksmln9m34iq57gah3clp0eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

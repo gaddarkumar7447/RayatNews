@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="start"
+        app:titleTextColor="@color/background">
+
+        <ImageView
+            android:id="@+id/appbar_drawerButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_baseline_menu_open_24"
+            android:backgroundTint="@color/text_h1"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/appbar_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="फॉर यु"
+            android:textColor="@color/text_h1"
+            android:textSize="16sp"
+            android:textStyle="italic|bold" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_svg"
+            android:visibility="gone" />
+
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
